@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Assets/index.css">
     <title>Perfect Website</title>
+    <script src="./Assets/index.js"></script>
 </head>
 
 <body>
@@ -18,11 +19,11 @@
 
             <div class="section1c">
                 <nav>
-                    <ul>
-                        <li>Project</li>
-                        <li>Journey</li>
-                        <li>Service</li>
-                        <li>Contact</li>
+                    <ul class="menu">
+                        <li><a href="#skills" class="menu-btn">My Skills</a></li>
+                        <li><a href="#specialities" class="menu-btn">Specialities</a></li>
+                        <li><a href="#portfolio" class="menu-btn">My Portfolio</a></li>
+                        <li><a href="#connect" class="menu-btn">Connect</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,90 +31,118 @@
         <div class="flexbox-container">
             <div class="intro">
                 <h1>I'm a Frontend Website Developer</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus doloribus modi dolore nemo, dicta cumque natus nesciunt nulla aspernatur velit? Consectetur quo deleniti accusamus totam natus a perferendis quidem earum.</p>
+                <p>Martin is a Frontend Developer, a Volunteer, a Designer and a Freelancer.</p>
                 <button>DM me</button>
             </div>
             <div class="profile">
-                <img src="/Assets/Images/agnes.jpeg" alt="Profile ">
+                <img src="./Assets/Images/comp.png" alt="Profile ">
             </div>
             <div></div>
         </div>
-        <div class="flexbox-container2">
-            <div class="skills">
-                <h3>My Skills</h3>
-                <h2>What My Programming Skills Include?</h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <button>Hire me</button>
-            </div>
-            <div class="eight">
-                <div>
-                    <img src="./Assets/Images/agnes.jpeg" alt="1 ">
-                </div>
-            </div>
-        </div>
 
     </div>
-    <div class="special">
-        <div class="speciala">
+    <div class="flexbox-container2" id="skills">
+        <div class="skills">
+            <h3>My Skills</h3>
+            <p>On the right is a number of skills that I have acquired over a period of time ranging in proficiency.</p>
+            <button>Hire me</button>
+        </div>
+        <div class="eight">
+            <img src="./Assets/Images/eight.png" alt="1 ">
+        </div>
+    </div>
+    <div class="special" id="specialities">
+        <div class=" speciala ">
             <h1>Specialities</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, explicabo pariatur. Expedita, culpa provident vitae eaque illo cum ipsum exercitationem accusamus consequuntur veritatis aliquam cumque reiciendis et voluptatum ipsam. Sit.</p>
         </div>
-        <div class="specialb">
-            <div class="s1">
+        <div class="specialb ">
+            <div class="s1 ">
                 <h1>Product Thinking</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates eum, delectus ipsum totam deserunt rerum labore provident ab illum dolores exercitationem facilis, ipsam, vero suscipit dolorem doloribus fuga consequatur id.</p>
+                <p>I have skills in product thinking: is a method of analyzing a product using a design thinking framework</p>
             </div>
-            <div class="s2">
+            <div class="s2 ">
                 <h1>UI/UX Designers</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates eum, delectus ipsum totam deserunt rerum labore provident ab illum dolores exercitationem facilis, ipsam, vero suscipit dolorem doloribus fuga consequatur id.</p>
+                <p>Design all screen from client brief and sometimes build the company design system</p>
             </div>
-            <div class="s3">
+            <div class="s3 ">
                 <h1>Frontend Developer</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates eum, delectus ipsum totam deserunt rerum labore provident ab illum dolores exercitationem facilis, ipsam, vero suscipit dolorem doloribus fuga consequatur id.</p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="portfolio">
-        <div class="p1">
-            <h1>My Portfolio</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </div>
-        <div>
-            <div class="one"><img src="./Assets/Images/agnes.jpeg" alt=" ">
-                <h3>Gaming store</h3>
-                <p>Web Designers</p>
-            </div>
-            <div class="two"><img src="./Assets/Images/agnes.jpeg" alt=" ">
-                <h3>Gaming store</h3>
-                <p>Web Designers</p>
-            </div>
-        </div>
-        <div>
-            <div class="three"><img src="./Assets/Images/agnes.jpeg" alt=" ">
-                <h3>Gaming store</h3>
-                <p>Web Designers</p>
-            </div>
-            <div class="four"><img src="./Assets/Images/agnes.jpeg" alt=" ">
-                <h3>Gaming store</h3>
-                <p>Web Designers</p>
-            </div>
-            <div class="five"><img src="./Assets/Images/agnes.jpeg" alt=" ">
-                <h3>Gaming store</h3>
-                <p>Web Designers</p>
+                <p>The skill is a slicing all component from design to code and make the website responsive(using media query).</p>
             </div>
         </div>
     </div>
-    <footer>
+
+    <!--Section 5-->
+    <div class="heading1" id="portfolio">
+        <h2>My Portfolio <sub>Short and brief!</sub></h2>
+        <div class="flexbox-container5 ">
+            <div class="TM1 ">
+                <div class="lineimg ">
+                    <img src="./Assets/Images/landing page.png " alt="Gaming store " ;>
+                </div>
+                <div class="text ">
+                    <h4>Landing page</h4>
+                    <p>Moringa School Landing page (HTML and CSS)</p>
+                    <div><button>Landing page</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="TM2 ">
+                <div class="lineimg2 ">
+                    <img src="./Assets/Images/design.png " alt="UI Design " ;>
+                </div>
+                <div class="text2 ">
+                    <div class="txtbelow2 ">
+                        <h4>UI Design</h4>
+                        <p>Figma Design sample</p>
+                        <div><button>Check out Design</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="TM3 ">
+                <div class="lineimg3 ">
+                    <img src="./Assets/Images/movers.png " alt="Quick movers Website " ;>
+                </div>
+                <div class="text3 ">
+                    <div class="txtbelow ">
+                        <h4>Movers Website</h4>
+                        <p>Quick Movers Website (2 page) HTML and CSS</p>
+                        <div><button>Quick movers Website</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="TM4 ">
+                <div class="lineimg4 ">
+                    <img src="./Assets/Images/Team.png " alt="Group Project " ;>
+
+                </div>
+                <div class="text4 ">
+                    <div class="txtbelow ">
+                        <h4>Team Project</h4>
+                        <p>Scholarship Portal (HTML, CSS and Javascript)</p>
+                        <div><button>Team Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Section 5-->
+    </div>
+
+
+
+    <footer id="connect">
         <div class="last">
-            <div class="lastn">
+            <div class="lastn ">
                 <h1>Martin Chege</h1>
             </div>
 
-            <div class="lastb">
+            <div class="lastb ">
                 <nav>
                     <ul>
                         <li>Github</li>
