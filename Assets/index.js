@@ -1,5 +1,4 @@
-function mouseover() {
-    document.getElementById("connect").addEventListener("click", function() {
-        alert("Hello World!");
-    });
-}
+const button = document.getElementById("contact")
+button.addEventListener('mouseover', function() {
+    console.log("Printing a Message!")
+})
